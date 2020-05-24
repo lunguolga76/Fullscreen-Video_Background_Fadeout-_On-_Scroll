@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section>
+      <video src="video.mp4" autoplay="" muted="" loop=""></video>
+    </section>
+    <section>
+      <div class="content">
+        <h2>Video Background Fadeout On Scroll</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere at
+          blanditiis quidem voluptatem? Explicabo quaerat commodi at doloribus
+          culpa hic vel sunt vitae ullam eaque natus sapiente nihil, nulla
+          quibusdam quia aperiam iusto temporibus inventore accusantium?
+          Expedita architecto quibusdam reprehenderit, fugiat voluptatem
+          suscipit, veniam adipisci ullam enim debitis, est temporibus cum
+          accusamus odit tempore omnis ad assumenda laudantium. Quidem, eos odio
+          voluptate ut laborum natus fugit, autem inventore debitis alias,
+          impedit animi maxime! Hic cupiditate repudiandae, qui nostrum minima
+          laboriosam neque ex quas ratione soluta perferendis, suscipit, iusto
+          ullam eius. Eum similique animi reiciendis, officia quaerat nemo eos
+          est cum. Ab et dolorum ex, sed qui quo doloribus facilis distinctio
+          dolor ut id laudantium eius cumque ad quae in, excepturi, inventore
+          eveniet corrupti iusto officiis. Rem nemo atque labore voluptate eos
+          esse doloremque corporis id saepe at, velit facilis voluptates dolores
+          beatae animi dicta tempora voluptatum eum. Ratione vitae asperiores
+          consequatur voluptas veniam fugiat ipsum ullam deserunt nulla pariatur
+          optio mollitia sit tempora odit cumque fugit, numquam rem? Magnam
+          deserunt harum voluptatem, quae voluptas quaerat maiores expedita
+          molestias tenetur quos repudiandae deleniti. Odio adipisci distinctio
+          commodi, qui provident deserunt quidem repellendus, eum a explicabo
+          velit rerum tempore quasi. Temporibus labore deleniti sapiente
+          voluptatibus qui provident ipsa recusandae, ad possimus explicabo a
+          odit quam inventore impedit eligendi. Quam quia impedit necessitatibus
+          quasi numquam consequuntur minima magni quidem! Nisi nostrum nesciunt
+          ea minima, consequatur impedit fuga illo enim deserunt exercitationem
+          quaerat error perspiciatis, numquam nobis. Tenetur laboriosam
+          dignissimos exercitationem voluptate culpa debitis?
+        </p>
+      </div>
+    </section>
+    <script type="text/javascript">
+      Let video = document.querySelector('video');
+      window.addEventListener('scroll', function(){
+          Let value = 1+ window.scrollY/-600;
+          video.style.opacity=value;
+      })
+    </script>
+  </body>
+</html>
